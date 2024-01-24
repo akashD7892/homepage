@@ -1,38 +1,279 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#searchContainer {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+#searchInput {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 25px; /*Adjust padding as needed for icon spacing */
+  
+  /* background-repeat: no-repeat; */
+  background-position: 5px center; /* Adjust position to center the icon vertically */
+}
+
+#icon{
+  position: absolute;
+}
+
+.lowerLine{
+  height:56px;
+}
+
+.name{
+  width: 292px ;
+  height: 32px; 
+  font-size: 24px;
+  margin-top: 100px ; 
+  margin-left: 68px ;
+}
+
+.card1{
+  display: flex ;
+  flex: 4;
+  justify-content: space-around;
+}
+
+.card {
+  width: 332px;
+  height: 168px;
+  margin-top: 164px;
+  margin-left: 68px;
+}
+
+.Cartbutton{
+ color: white;
+ background-color:#303030;
+ border-radius: 5px;
+ height: 28px;
+ font-size: small;
+}
+
+.card-text{
+  font-weight: 450;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.card-title{
+  font-weight: 650;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.heading{
+  width: 496px;
+  height: 32px;
+  margin-top: 436px ;
+  margin-left: 68px ;
+  font-weight: 700;
+  font-size: 24px; 
+  align-items: center;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.frame{
+width: 564px;
+height: 36px;
+top: 500px;
+left: 68px;
+display: flex;
+margin-left: 68px;
+} 
+
+.f{
+margin-right: 20px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 8px ,12px, 8px, 12px;
+border-radius: 4px;
+line-height: 20px;
+color: rgba(74, 74, 74, 1);
+background-color: rgba(255, 255, 255, 1);
+;
+
+}
+
+.frame17 {
+width: 448px ;
+height: 368px ;
+top: 571px ;
+left: 68px ;
+gap: 16px ;
+background-color: white;
+border: 1px solid blue;
+margin-left: 68px;
+border-radius: 5px;
+}
+
+.doughnut{
+width: 160px ;
+height: 160px ;
+border: 1px ;
+margin-left: 140px;
+margin-top: 10px;
+
+}
+
+.labels{
+width: 416px;
+height: 56px ;
+gap: 16px ;
+margin-left: 68px;
+}
+
+.Innerlabel{
+  display: flex;
+  align-items: baseline;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 94px ;
+  height: 20px ;
+  gap: 8px ;
+  font-size: 14px;
+  width:fit-content;
+  margin-right: 10px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.RCard {
+width: 216px;
+height:368px;
+top: 571px ;
+left: 532px ;
+border-radius: 12px ;
+gap: 16px ;
+background-color: rgba(149, 111, 0, 1);
+color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tracking{
+width: 447px;
+height: 368px;
+top: 571px;
+left: 765px;
+border-radius: 12px;
+gap: 16px;
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid blue;
+border-radius: 10px;
+
 }
+
+.footer{
+  height: 472px ;
+  margin-top: 400px ;
+  margin-left: 68px ;
+  margin-bottom: 50px;
+}
+
+.fcheader{
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 20px;
+  width: 300px;
+  height: 40px;
+}
+
+.fctext{
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 20px;
+  width: 270px;
+  height: 60px;
+}
+
+.fCard1{
+  padding: 8px;
+  height: 408px ;
+  width: fit-content;
+  /* margin-top: 1131px ; */
+  /* margin-left: 69px ; */
+  border-radius: 16px;
+  gap: 4;
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  
+}
+
+.upperCard{
+width: 448px;
+height: auto ;
+/* margin-top: 1131px;
+margin-left: 416px; */
+padding: 16px ;
+gap: 24px ;
+border: 1px solid rgba(204, 204, 204, 0.5);
+border-radius: 10px;
+
+}
+
+.lowerCard{
+width: 448px;
+height: auto ;
+margin-top: 10px; 
+padding: 16px;
+/* margin-left: 416px ; */
+border-radius: 12px ;
+gap: 16px ;
+border:1px solid rgba(204, 204, 204, 0.5) ;
+
+}
+
+.upCardh3{
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 20px;
+  color: rgba(74, 74, 74, 1) ;
+}
+
+.upCardp{
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 20px;
+  color: rgba(74, 74, 74, 1);
+}
+
+.footerCard3{
+width: 332px;
+height: 408px;
+/* margin-top: 1131px;*/
+margin-left: 250px;
+margin-right: 68px;
+border-radius: 16px ;
+gap: 16px ;
+border:1px solid rgba(204, 204, 204, 0.5) ;
+}
+
+.footerCard2{
+  width: 332px;
+  height: auto;
+  margin-left: 100px;
+
+}
+
+  .fCards{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .images{
+    display: flex;
+    width: 34px;
+    height: 34px;
+    justify-content: space-between;
+  }
+  
+  .images {
+    img{
+      margin-right: 10px;
+    } 
+  }
+
+  .images{
+    margin-top: 20px;
+  }
